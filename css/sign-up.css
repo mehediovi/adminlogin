@@ -1,0 +1,54 @@
+body{
+    background: url(../img/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container1{
+    width: 500px;
+    margin: 10% auto;
+}
+
+.contact-form1{
+    background-color: #FF9800;
+    padding: 60px;
+
+}
+
+
+.form3{
+    position: relative;
+    top: -24px;
+}
+
+
+.form-control2 {
+    width: 90%;
+    height: 22px;
+    margin-bottom: 7px;
+    padding: 5px;
+}
+
+.form-control2[type="submit"]
+    {   
+    background: #9e9696;
+    padding: 8px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.btn {
+    position: absolute;
+    top: 102%;
+    left: 30%;
+    width: 113px;
+    height: 33px;
+    text-align: center;
+    color: rgb(29, 32, 30);
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.6s ease;
+}
+.btn:hover{
+	 box-shadow: 3px 4px 10px black;
+}
